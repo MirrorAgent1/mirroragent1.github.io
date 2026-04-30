@@ -24,8 +24,8 @@ TOADGANG_TELEGRAM_URL=
 Use search and replace in your editor, or run commands like:
 
 ```bash
-perl -pi -e 's/{{CONTRIBUTOR_NAME}}/Aqio/g' *.html README.md
-perl -pi -e 's#{{CONTRIBUTOR_GITHUB_URL}}#https://github.com/aqio97#g' *.html README.md
+perl -pi -e 's/{{CONTRIBUTOR_NAME}}/mirroragent1/g' *.html README.md
+perl -pi -e 's#{{CONTRIBUTOR_GITHUB_URL}}#https://github.com/mirroragent1#g' *.html README.md
 ```
 
 Be careful with URLs that contain `/`; use `#` as the delimiter for easier replacement.
