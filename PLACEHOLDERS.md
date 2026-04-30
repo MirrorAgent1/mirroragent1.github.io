@@ -14,7 +14,7 @@ AGENT_PAGE_URL=
 WALLET_ADDRESS=
 BASESCAN_URL=
 TOADAID_URL=https://toadaid.github.io/
-TOADAID_EXPLORER_URL=https://toadaid.github.io/explorer/
+TOADAID_EXPLORER_URL=https://toadaid.github.io/agent/
 TOADGOD_X_URL=https://x.com/toadgod1017
 TOADGANG_TELEGRAM_URL=
 ```
