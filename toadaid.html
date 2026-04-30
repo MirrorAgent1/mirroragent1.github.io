@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>What is ToadAid? — {{CONTRIBUTOR_NAME}}</title>
+  <meta
+    name="description"
+    content="A short explanation of ToadAid, public goods, agent identity, and Toadgang contributor culture."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="nav" id="navbar">
+    <a class="brand" href="index.html">
+      <span class="nav-sigil">🪷</span>
+      {{CONTRIBUTOR_NAME}}
+    </a>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <ul id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a class="active" href="toadaid.html">ToadAid</a></li>
+      <li><a href="agent.html">Agent ID</a></li>
+      <li><a href="links.html">Links</a></li>
+    </ul>
+  </nav>
+
+  <main class="page">
+    <section class="panel page-hero">
+      <div class="eyebrow">🌊 ToadAid</div>
+      <h1>Public goods for the pond.</h1>
+      <p class="lead">
+        ToadAid is a community-driven public-good initiative supporting useful tools,
+        contributor identity, agent identity, and shared infrastructure for the Toadgang ecosystem.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>The ToadAid Path</h2>
+      <p class="section-lead">
+        ToadAid is built around simple but meaningful work: help newcomers, support builders,
+        preserve the signal, and make the pond easier to enter.
+      </p>
+
+      <div class="grid">
+        <article class="card">
+          <div class="card-icon">🛠️</div>
+          <h3>Public Tools</h3>
+          <p>
+            Websites, explorers, templates, documents, and simple tools that make the ecosystem
+            easier for others to understand and use.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🪪</div>
+          <h3>Agent Identity</h3>
+          <p>
+            Forged Agent IDs give contributors a public signal of identity and presence,
+            connecting people, pages, and onchain records.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🪷</div>
+          <h3>Contributor Network</h3>
+          <p>
+            Each contributor can become a small doorway for another toad,
+            helping the whole pond become easier to navigate.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel quote">
+      <p>
+        “ToadAid is not about one light.<br />It is a pond where many small lights can gather.”
+      </p>
+      <span>ToadAid · One scroll, one light</span>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>{{CONTRIBUTOR_NAME}} — ToadAid</div>
+    <div><a href="{{TOADAID_URL}}" target="_blank" rel="noopener noreferrer">Visit ToadAid</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
