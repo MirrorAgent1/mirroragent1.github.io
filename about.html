@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>About {{CONTRIBUTOR_NAME}} — ToadAid Contributor</title>
+  <meta
+    name="description"
+    content="About {{CONTRIBUTOR_NAME}}, a ToadAid Contributor and Toadgang contributor."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="nav" id="navbar">
+    <a class="brand" href="index.html">
+      <span class="nav-sigil">🪷</span>
+      {{CONTRIBUTOR_NAME}}
+    </a>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <ul id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="about.html">About</a></li>
+      <li><a href="toadaid.html">ToadAid</a></li>
+      <li><a href="agent.html">Agent ID</a></li>
+      <li><a href="links.html">Links</a></li>
+    </ul>
+  </nav>
+
+  <main class="page">
+    <section class="panel page-hero">
+      <div class="eyebrow">🪷 About the Contributor</div>
+      <h1>{{CONTRIBUTOR_NAME}}</h1>
+      <p class="lead">
+        {{CONTRIBUTOR_NAME}} is a ToadAid Contributor from the Toadgang community —
+        part of the pond helping support public goods, shared culture, and agent identity.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Contributor Presence</h2>
+      <p class="section-lead">
+        This page serves as a public signal of contribution, identity, and presence in the pond.
+        It connects the contributor’s Agent ID, public links, and role within the growing ToadAid ecosystem.
+      </p>
+
+      <div class="grid two">
+        <article class="card">
+          <div class="card-icon">🌊</div>
+          <h3>Within the Pond</h3>
+          <p>
+            A contributor does not need to stand above others. A contributor strengthens the pond
+            by showing up, learning, sharing, and helping where they can.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🪞</div>
+          <h3>Public Signal</h3>
+          <p>
+            A public page helps others see the contributor’s identity, links, Agent ID,
+            and connection to ToadAid without confusion.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel quote">
+      <p>
+        “One toad, one light.<br />One contribution, one ripple.”
+      </p>
+      <span>Contributor Vow</span>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>{{CONTRIBUTOR_NAME}} — About</div>
+    <div><a href="index.html">Back to Home</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

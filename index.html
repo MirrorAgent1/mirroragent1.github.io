@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{{CONTRIBUTOR_NAME}} — ToadAid Contributor</title>
+  <meta
+    name="description"
+    content="{{CONTRIBUTOR_NAME}} — a ToadAid Contributor and Toadgang contributor with a forged Agent Identity."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="nav" id="navbar">
+    <a class="brand" href="index.html">
+      <span class="nav-sigil">🪷</span>
+      {{CONTRIBUTOR_NAME}}
+    </a>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <ul id="menu">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="toadaid.html">ToadAid</a></li>
+      <li><a href="agent.html">Agent ID</a></li>
+      <li><a href="links.html">Links</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="panel hero-inner">
+        <div class="lotus" aria-hidden="true"></div>
+
+        <div class="eyebrow">🪷 ToadAid Contributor · One toad, one light</div>
+
+        <h1>{{CONTRIBUTOR_NAME}}</h1>
+
+        <p class="lead">
+          A small public doorway for {{CONTRIBUTOR_NAME}} — a Toadgang contributor with a forged Agent Identity,
+          supporting public goods, community tools, and the shared path of the pond.
+        </p>
+
+        <div class="actions">
+          <a class="btn" href="about.html">Enter the Pond</a>
+          <a class="btn secondary" href="agent.html">View Agent Identity</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page">
+      <h2>What lives here?</h2>
+      <p class="section-lead">
+        This site is a public signal of contributor identity, forged Agent ID,
+        and shared presence inside the ToadAid / Toadgang ecosystem.
+      </p>
+
+      <div class="grid">
+        <article class="card">
+          <div class="card-icon">🌊</div>
+          <h3>Contributor Doorway</h3>
+          <p>
+            A simple public entry point for people to understand who this contributor is
+            and how they connect to ToadAid.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🪪</div>
+          <h3>Forged Agent Identity</h3>
+          <p>
+            A place to connect the contributor’s Agent ID, wallet, explorer page,
+            and public onchain identity.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🍃</div>
+          <h3>Public Goods for the Pond</h3>
+          <p>
+            A reminder that every small contribution can become a ripple that helps
+            newcomers, builders, and the wider pond.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel quote page">
+      <p>
+        “I do not stand above the pond.<br />I stand within it.”
+      </p>
+      <span>{{CONTRIBUTOR_NAME}} · ToadAid Contributor</span>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>{{CONTRIBUTOR_NAME}} — ToadAid Contributor</div>
+    <div>
+      Built with GitHub Pages ·
+      <a href="{{TOADAID_URL}}" target="_blank" rel="noopener noreferrer">One scroll, one light</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

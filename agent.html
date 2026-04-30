@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Agent Identity — {{CONTRIBUTOR_NAME}}</title>
+  <meta
+    name="description"
+    content="Forged Agent Identity for {{CONTRIBUTOR_NAME}}, a ToadAid Contributor."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="nav" id="navbar">
+    <a class="brand" href="index.html">
+      <span class="nav-sigil">🪷</span>
+      {{CONTRIBUTOR_NAME}}
+    </a>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <ul id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="toadaid.html">ToadAid</a></li>
+      <li><a class="active" href="agent.html">Agent ID</a></li>
+      <li><a href="links.html">Links</a></li>
+    </ul>
+  </nav>
+
+  <main class="page">
+    <section class="panel page-hero">
+      <div class="eyebrow">🪪 Forged Agent Identity</div>
+      <h1>{{AGENT_ID}}</h1>
+      <p class="lead">
+        This page connects {{CONTRIBUTOR_NAME}}’s public contributor identity with their forged Agent ID,
+        wallet, and onchain footprint.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Identity Details</h2>
+      <p class="section-lead">
+        Replace the placeholder values below when setting up a new contributor site.
+      </p>
+
+      <div class="grid">
+        <article class="card">
+          <div class="card-icon">🪪</div>
+          <h3>Agent ID</h3>
+          <p>{{AGENT_ID}}</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">👛</div>
+          <h3>Wallet</h3>
+          <p>{{WALLET_ADDRESS}}</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🔎</div>
+          <h3>Explorer</h3>
+          <p>Use the links page to connect Agent Explorer, BaseScan, and other public records.</p>
+        </article>
+      </div>
+
+      <div class="actions">
+        <a class="btn" href="{{AGENT_PAGE_URL}}" target="_blank" rel="noopener noreferrer">View Agent Page</a>
+        <a class="btn secondary" href="{{BASESCAN_URL}}" target="_blank" rel="noopener noreferrer">View on BaseScan</a>
+      </div>
+    </section>
+
+    <section class="panel quote">
+      <p>
+        “Local names may be human.<br />The pond remembers through identity.”
+      </p>
+      <span>Agent Identity</span>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>{{CONTRIBUTOR_NAME}} — Agent Identity</div>
+    <div><a href="links.html">View links</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
